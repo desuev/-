@@ -6,10 +6,12 @@
 //  Copyright © 2017 Artemiy Sindeev. All rights reserved.
 //
 
-#include <iostream>
+#include "Prog.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main(int argc, char * argv[]) {
+    
+    Lab *lab = new Lab();
+//    lab.checkFlags(argc, argv);
+    
     return 0;
 }
